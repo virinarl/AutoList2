@@ -1,0 +1,121 @@
+body {
+  font-family: "Roboto Condensed", sans-serif; }
+
+.encabezado {
+  background-color: #c9edea; }
+
+a {
+  color: #03989e; }
+
+a:hover {
+  color: #03989e;
+  font-weight: bold;
+  text-decoration: none; }
+
+.nav-tabs .nav-link.active {
+  color: #03989e;
+  font-weight: bold; }
+
+.encabezado__titulo {
+  display: inline;
+  color: #03989e; }
+
+.encabezado__acceso {
+  float: right;
+  padding: 1%; }
+
+.encabezado__acceso--link {
+  text-decoration: none; }
+
+.encabezado__menu {
+  display: inline;
+  float: right;
+  padding: 1%; }
+
+.encabezado__menu--nav {
+  display: inline; }
+
+.encabezado__menu--link {
+  text-decoration: none;
+  padding: 2px; }
+
+.information {
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "parrafo parrafo parrafo" "dato1 dato2 dato3";
+  grid-template-rows: 30% 20% 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: space-evenly; }
+
+.information__titulo {
+  grid-area: titulo;
+  color: #03989e;
+  text-align: center;
+  align-content: space-between;
+  padding-top: 2%; }
+
+.information_dato1 {
+  grid-area: dato1; }
+
+.information_dato2 {
+  grid-area: dato2; }
+
+.information_dato3 {
+  grid-area: dato3; }
+
+.information__formato {
+  text-align: center; }
+
+.information__formato--titulo {
+  color: #03989e;
+  font-weight: bold; }
+
+.information__descripcion {
+  grid-area: parrafo;
+  text-align: center;
+  align-content: space-between; }
+
+section {
+  padding: 1%; }
+
+div.card-header {
+  background-color: #c9edea; }
+
+.misionVisionProposito {
+  display: grid;
+  grid-template-areas: "dato1 dato2 dato3";
+  grid-template-columns: repeat(3, 1fr);
+  align-content: space-evenly;
+  padding: 2%; }
+
+.misionVisionProposito__formato {
+  text-align: center;
+  padding: 1%; }
+
+.propuestaValor {
+  display: grid;
+  grid-template-areas: "titulo parrafo1" "titulo parrafo2" "titulo parrafo3";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.propuestaValor__titulo {
+  grid-area: titulo;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.propuestaValor__parrafo1 {
+  grid-area: parrafo1; }
+
+.propuestaValor__parrafo2 {
+  grid-area: parrafo2; }
+
+.propuestaValor__parrafo3 {
+  grid-area: parrafo3; }
+
+.btn-outline-primary {
+  color: #03989e;
+  border-color: #03989e; }
+
+.btn-primary {
+  background-color: #03989e;
+  border-color: #03989e; }
