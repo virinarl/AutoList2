@@ -1,6 +1,8 @@
 $fuente: 'Roboto Condensed', sans-serif;
 $backgroud: #c9edea;
 $textcolor1: #03989e;
+$background2: #278A8E;
+$mutedcolor: #A1C0BE;
 
 body{
     font-family: $fuente;
@@ -119,6 +121,7 @@ body{
 
   div.card-header{
       background-color: $backgroud;
+      color: $textcolor1;
   }
 
   .misionVisionProposito{
@@ -172,3 +175,71 @@ body{
       background-color: $textcolor1;
       border-color: $textcolor1;
   }
+
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:hover, .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:hover{
+      background-color: $background2;
+      border-color: $background2;
+  }
+
+  .btn-outline-secondary{
+      color: $textcolor1;
+      border-color: $textcolor1;
+  }
+
+  h1{
+      color: $textcolor1;
+  }
+
+  .text-muted{
+      color: $mutedcolor !important;
+  }
+
+  .badge-secondary{
+      background-color: $textcolor1;
+  }
+
+  .row{
+      align-items: center;
+  }
+
+
+/*Extraido de: https://codepen.io/moughamir/pen/OoZOmm*/
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   
+   .app {
+    &-btn {
+     width: 45%;
+     max-width: 160px;
+     color: #fff;
+     margin: 20px 10px;
+     text-align: left;
+     border-radius: 5px;
+     text-decoration: none;
+     font-family: "Lucida Grande", sans-serif;
+     font-size: 10px;
+     text-transform: uppercase;
+     &.blu {
+      background-color: #101010;
+      transition: background-color 0.25s linear;
+      &:hover {
+       background-color: #454545;
+      }
+     }
+     i {
+      width: 20%;
+      text-align: center;
+      font-size: 28px;
+      margin-right: 7px;
+     }
+     .big-txt {
+      font-size: 17px;
+      text-transform: capitalize;
+     }
+    }
+   }

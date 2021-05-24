@@ -51,7 +51,9 @@ body {
 
 .information {
   display: grid;
-  grid-template-areas: "titulo titulo titulo" "parrafo parrafo parrafo" "dato1 dato2 dato3";
+  grid-template-areas: "titulo titulo titulo"
+ "parrafo parrafo parrafo"
+ "dato1 dato2 dato3";
   grid-template-rows: 30% 20% 1fr;
   grid-template-columns: repeat(3, 1fr);
   align-content: space-evenly; }
@@ -88,7 +90,8 @@ section {
   padding: 1%; }
 
 div.card-header {
-  background-color: #c9edea; }
+  background-color: #c9edea;
+  color: #03989e; }
 
 .misionVisionProposito {
   display: grid;
@@ -103,7 +106,9 @@ div.card-header {
 
 .propuestaValor {
   display: grid;
-  grid-template-areas: "titulo parrafo1" "titulo parrafo2" "titulo parrafo3";
+  grid-template-areas: "titulo parrafo1"
+ "titulo parrafo2"
+ "titulo parrafo3";
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr); }
 
@@ -129,3 +134,27 @@ div.card-header {
 .btn-primary {
   background-color: #03989e;
   border-color: #03989e; }
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:hover, .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:hover {
+  background-color: #278A8E;
+  border-color: #278A8E; }
+
+.btn-outline-secondary {
+  color: #03989e;
+  border-color: #03989e; }
+
+h1 {
+  color: #03989e; }
+
+.text-muted {
+  color: #A1C0BE !important; }
+
+.badge-secondary {
+  background-color: #03989e; }
+
+.row {
+  align-items: center; }
+
+.googleBadge{
+  width: 30%;
+}
