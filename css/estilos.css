@@ -1,20 +1,30 @@
 body {
   font-family: "Roboto Condensed", sans-serif; }
 
-.encabezado {
-  background-color: #c9edea; }
+.bg-light {
+  background-color: #c9edea !important; }
 
-a {
+.navbar-light .navbar-nav .nav-link {
   color: #03989e; }
 
-a:hover {
-  color: #03989e;
-  font-weight: bold;
-  text-decoration: none; }
-
-.nav-tabs .nav-link.active {
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .show > .nav-link {
   color: #03989e;
   font-weight: bold; }
+
+.navbar-light .navbar-nav .nav-link:hover, .dropdown-item:hover, .dropdown-item:focus {
+  color: #03989e;
+  font-weight: bold;
+  background-color: #c9edea; }
+
+.dropdown-menu.show {
+  color: #03989e;
+  font-weight: bold; }
+
+.dropdown-menu {
+  background-color: #c9edea; }
+
+.dropdown-item {
+  color: #03989e; }
 
 .encabezado__titulo {
   display: inline;
