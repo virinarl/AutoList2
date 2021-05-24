@@ -51,9 +51,7 @@ body {
 
 .information {
   display: grid;
-  grid-template-areas: "titulo titulo titulo"
- "parrafo parrafo parrafo"
- "dato1 dato2 dato3";
+  grid-template-areas: "titulo titulo titulo" "parrafo parrafo parrafo" "dato1 dato2 dato3";
   grid-template-rows: 30% 20% 1fr;
   grid-template-columns: repeat(3, 1fr);
   align-content: space-evenly; }
@@ -106,9 +104,7 @@ div.card-header {
 
 .propuestaValor {
   display: grid;
-  grid-template-areas: "titulo parrafo1"
- "titulo parrafo2"
- "titulo parrafo3";
+  grid-template-areas: "titulo parrafo1" "titulo parrafo2" "titulo parrafo3";
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr); }
 
@@ -155,6 +151,8 @@ h1 {
 .row {
   align-items: center; }
 
-.googleBadge{
-  width: 30%;
-}
+.appBadge {
+  width: 30%; }
+
+.container {
+  margin-top: 2%; }
